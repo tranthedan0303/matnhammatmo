@@ -8,6 +8,7 @@
 body {
     display: flex;
     flex-direction: column;
+    align-items: ce;
 }
 
 #hero, footer {
@@ -115,5 +116,35 @@ header {
 }
 
 .quote cite {
-    text-align: end;
+    margin-left: 400px;
+    font-weight: 700;
+}
+
+.subscribe-container {
+    background-color: #3882f6;
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.right button {
+    color: white;
+    padding:  5px 18px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #3882f6;
+    cursor: pointer;
+    border: white solid 2px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
