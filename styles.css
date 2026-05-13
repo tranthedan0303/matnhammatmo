@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 #hero, footer {
     background-color: #1f2937;
     color: white;
@@ -98,4 +103,17 @@ header {
 .songs-container img {
     border: solid #1f2937;
     border-radius: 5%;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 300;
+    padding: 18px;
+    text-align: center;
+}
+
+.quote cite {
+    text-align: end;
 }
